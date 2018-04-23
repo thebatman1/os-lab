@@ -1,0 +1,3 @@
+Unix is a multiuser OS.
+My name is Mrinmay Mukherjee.
+This is OS Lab.

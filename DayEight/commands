@@ -1,0 +1,11 @@
+echo $SHELL
+grep #LOGNAME /etc/passwd
+who > myfile1
+more myfile1
+date; who > myfile2
+sed 's/^.//' InputFile.txt
+sed 's/.\(.\)$/\1/' InputFile.txt
+sed 's/^\([A-Za-z0-9]*\) \([A-Za-z0-9]*\)/\2 \1/' InputFile.txt
+cat /etc/passwd | awk " { print $7}"
+awk -F":" '{print $6}' /etc/passwd | sort
+
